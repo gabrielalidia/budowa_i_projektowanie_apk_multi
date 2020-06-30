@@ -1,0 +1,271 @@
+body {
+    font-family: 'Cutive Mono', monospace;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+}
+
+#box {
+    width: 900px;
+    margin-left: 500px;
+    margin-right: auto;
+}
+
+#box4 {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#napis {
+    margin-top: 80px;
+    margin-right: 200px;
+    float: right;
+    width: 400px;
+    font-size: 32px;
+    text-align: center;
+}
+
+#plansza {
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 48px;
+    min-height: 60px;
+}
+
+#grafika {
+    float: left;
+    text-align: center;
+    width: 450px;
+    min-height: 300px;
+}
+
+#alfabet {
+    float: left;
+    text-align: center;
+    width: 450px;
+    min-height: 300px;
+}
+
+#box1 {
+    float: left;
+    text-align: center;
+    width: 400px;
+    min-height: 300px;
+    margin-top: 100px;
+}
+
+#box2 {
+    float: left;
+    text-align: center;
+    width: 400px;
+    min-height: 300px;
+    margin-top: 100px;
+}
+
+#box3 {
+    float: left;
+    text-align: center;
+    width: 400px;
+    min-height: 300px;
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    font-size: 52px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    font-size: 34px;
+    padding: 5px;
+    margin: 10px;
+    color: pink;
+    cursor: pointer;
+}
+
+a:hover {
+    color: white;
+}
+
+#przycisk2 {
+    font-family: 'Sacramento', cursive;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: white;
+    cursor: pointer;
+    border: 3px solid aqua;
+    border-radius: 90px;
+    background-color: black;
+}
+
+#przycisk2:hover {
+    color: black;
+    background-color: aqua;
+}
+
+#przycisk3 {
+    font-family: 'Sacramento', cursive;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: white;
+    cursor: pointer;
+    border: 3px solid rgb(0, 255, 106);
+    border-radius: 90px;
+    background-color: black;
+}
+
+#przycisk3:hover {
+    color: black;
+    background-color: rgb(0, 255, 106);
+}
+
+#b {
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    text-align: center;
+    font-size: 36px;
+    padding: 50px;
+    margin: 10px;
+    margin-top: 0px;
+    color: white;
+    cursor: pointer;
+    border: 3px solid aqua;
+    border-radius: 90px;
+    background-color: black;
+}
+
+#b:hover {
+    color: black;
+    background-color: aqua;
+}
+
+#d {
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    text-align: center;
+    font-size: 36px;
+    padding: 50px;
+    margin: 10px;
+    margin-top: 0px;
+    color: white;
+    cursor: pointer;
+    border: 3px solid rgb(0, 255, 106);
+    border-radius: 90px;
+    background-color: black;
+}
+
+#d:hover {
+    color: black;
+    background-color: rgb(0, 255, 106);
+}
+
+#c {
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    text-align: center;
+    font-size: 36px;
+    padding: 50px;
+    margin: 10px;
+    margin-top: 0px;
+    color: white;
+    cursor: pointer;
+    border: 3px solid rgb(204, 60, 248);
+    border-radius: 90px;
+    background-color: black;
+}
+
+#c:hover {
+    color: black;
+    background-color: rgb(204, 60, 248);
+}
+
+.litera {
+    font-size: 28px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    cursor: pointer;
+    float: left;
+}
+
+.litera:hover {
+    background-color: palevioletred;
+    color: white;
+    border: 3px solid white;
+}
+
+.reset {
+    color: palevioletred;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.reset:hover {
+    color: white;
+}
+
+.gra {
+    width: 600px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.board {
+    margin-top: 80px;
+    margin-left: 100px;
+    width: 306px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 3px;
+    display: grid;
+    cursor: pointer;
+}
+
+.boxx {
+    border: 2px solid;
+    border-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.boxx:hover {
+    background: gray;
+    color: black;
+}
